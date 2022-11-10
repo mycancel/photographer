@@ -1,9 +1,12 @@
 import React from 'react'
 
 const Footer = () => {
-  // TODO: Add Social Media Links to Footer
   return (
-    <footer>Footer</footer>
+    <footer className='d-flex justify-content-around'>
+      <a href='https://www.twitter.com' target='_blank' rel='noreferrer'>Twitter</a>
+      <a href='https://www.instagram.com' target='_blank' rel='noreferrer'>Instagram</a>
+      <a href='https://www.facebook.com' target='_blank' rel='noreferrer'>Facebook</a>
+    </footer>
   )
 }
 
